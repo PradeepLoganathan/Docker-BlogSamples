@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  thetime:
+    image: ${DOCKER_REGISTRY}thetime
+    build:
+      context: .
+      dockerfile: thetime/Dockerfile
